@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 24pin0.5mm)(type KiCad)(uri "$(KIPRJMOD)\\24pin0.5mm.pretty")(options "")(descr ""))
+  (lib (name GroveCon)(type KiCad)(uri "$(KIPRJMOD)\\GroveCon.pretty")(options "")(descr ""))
+)
