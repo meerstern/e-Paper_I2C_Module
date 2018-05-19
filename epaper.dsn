@@ -1,4 +1,4 @@
-(pcb D:\01_PCBDesign\03_BreakOut\ePaper_Module_v1.0\epaper.dsn
+(pcb D:\01_PCBDesign\03_BreakOut\ePaper_Module_v1.1\epaper.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -60,22 +60,22 @@
     )
     (component "smt:C-0603"
       (place C1 181500 -132500 back 180 (PN C))
-      (place C2 167000 -120500 back 0 (PN C))
-      (place C3 167000 -118000 back 180 (PN C))
-      (place C4 167000 -133500 back 180 (PN C))
-      (place C5 167000 -136000 back 180 (PN C))
-      (place C6 167000 -138500 back 180 (PN C))
-      (place C7 167000 -141000 back 180 (PN C))
-      (place C8 159500 -133500 back 180 (PN C))
-      (place C9 159500 -136000 back 180 (PN C))
-      (place C10 159500 -123000 back 180 (PN C))
-      (place C11 159500 -138500 back 180 (PN C))
-      (place C12 167000 -123000 back 180 (PN C))
-      (place C13 159500 -141000 back 180 (PN C))
+      (place C2 169000 -120500 back 0 (PN C))
+      (place C3 169000 -118000 back 180 (PN C))
+      (place C4 169000 -133500 back 180 (PN C))
+      (place C5 169000 -136000 back 180 (PN C))
+      (place C6 169000 -138500 back 180 (PN C))
+      (place C7 169000 -141000 back 180 (PN C))
+      (place C8 162500 -133500 back 180 (PN C))
+      (place C9 162500 -136000 back 180 (PN C))
+      (place C10 162500 -123000 back 180 (PN C))
+      (place C11 162500 -138500 back 180 (PN C))
+      (place C12 169000 -123000 back 180 (PN C))
+      (place C13 162500 -141000 back 180 (PN C))
       (place R1 178000 -121500 back 180 (PN R))
       (place R2 180500 -116000 back 180 (PN R))
-      (place R3 167000 -129000 back 180 (PN R))
-      (place R4 167000 -126500 back 180 (PN R))
+      (place R3 169000 -129000 back 180 (PN R))
+      (place R4 169000 -126500 back 180 (PN R))
       (place R6 178500 -136000 back 180 (PN R))
       (place R7 180000 -136000 back 180 (PN R))
       (place R8 178500 -138500 back 180 (PN R))
@@ -90,21 +90,21 @@
       (place JP1 190000 -130000 back 270 (PN GROVE))
     )
     (component "rcl:rcl-L3230M"
-      (place L1 167500 -113500 back 180 (PN L_Small))
+      (place L1 169500 -113500 back 180 (PN L_Small))
     )
     (component "smt-sot:SOT23"
-      (place Q1 159500 -127500 back 270 (PN Q_NMOS_GSD))
+      (place Q1 162500 -127500 back 270 (PN Q_NMOS_GSD))
     )
     (component "smt-sop:TSSOP-16_4.4x5mm_Pitch0.65mm_without_pad"
       (place U1 180000 -127000 back 90 (PN SC18IS602B))
     )
     (component 24pin0.5mm:24pin0.5mm
-      (place U2 154000 -133000 back 270 (PN "e-paper"))
+      (place U2 157500 -132500 back 270 (PN "e-paper"))
     )
     (component "smd-semi:SOD-123"
-      (place D1 160000 -113500 back 180 (PN D))
-      (place D2 160000 -116500 back 0 (PN D))
-      (place D3 160000 -119500 back 180 (PN D))
+      (place D1 162000 -113500 back 180 (PN D))
+      (place D2 162000 -116500 back 0 (PN D))
+      (place D3 162000 -119500 back 180 (PN D))
     )
   )
   (library
@@ -394,8 +394,7 @@
     (class kicad_default "" /3.3V /GDR /PREVGH /PREVGL /RESE /SCL /SDA /cA0
       /cA1 /cA2 /eBS /eBUSY /eCLK /eCS /eDC /eMOSI /eRST GND "Net-(C10-Pad1)"
       "Net-(C12-Pad1)" "Net-(C13-Pad1)" "Net-(C3-Pad1)" "Net-(C3-Pad2)" "Net-(C5-Pad1)"
-      "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(C9-Pad1)" "Net-(R1-Pad2)" "Net-(U1-Pad5)"
-      "Net-(U1-Pad9)" "Net-(U2-Pad18)" "Net-(U2-Pad19)" "Net-(U2-Pad24)"
+      "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(C9-Pad1)" "Net-(R1-Pad2)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

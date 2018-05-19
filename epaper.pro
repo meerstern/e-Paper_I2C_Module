@@ -1,4 +1,4 @@
-update=2018/03/21 23:50:15
+update=2018/04/19 10:30:56
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=e-paper
 LibName31=sc18is602b
 LibName32=C:/Program Files/KiCad/share/kicad/library/pinhead
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
