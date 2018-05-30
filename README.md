@@ -1,4 +1,4 @@
-# e-Paper_I2C_Module
+# e-Paper I2C モジュール
 The e-Paper I2C Module of Kicad Files for 1.54inch E-Ink raw display panel. 
 
 e-Paper I2Cモジュールは[WAVESHARE製200x200, 1.54inch E-Inkディスプレイ][0]を搭載したモジュールです。<br>
