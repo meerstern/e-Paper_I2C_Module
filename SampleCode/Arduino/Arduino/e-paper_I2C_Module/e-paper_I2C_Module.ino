@@ -61,10 +61,10 @@ void setup() {
    *  i.e. the next action of SetFrameMemory will set the other memory area
    *  therefore you have to clear the frame memory twice.
    */
-//  epd.ClearFrameMemory(0xFF);   // bit set = white, bit reset = black
-//  epd.DisplayFrame();
-//  epd.ClearFrameMemory(0xFF);   // bit set = white, bit reset = black
-//  epd.DisplayFrame();
+  epd.ClearFrameMemory(0xFF);   // bit set = white, bit reset = black
+  epd.DisplayFrame();
+  epd.ClearFrameMemory(0xFF);   // bit set = white, bit reset = black
+  epd.DisplayFrame();
 
   paint.SetRotate(ROTATE_0);
   paint.SetWidth(200);
