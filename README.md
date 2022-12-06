@@ -31,8 +31,11 @@ V1とV2はハードウェア上の互換性がありますが、プログラム/
   　GPIO0:CS、GPIO1:Busy、GPIO2:DC、GPIO3:Reset
   * 取付穴M3、穴ピッチ44mm x29mm
   
-
+## 販売サイト
+  * [スイッチサイエンス][3]
 
 [0]: https://www.waveshare.com/product/1.54inch-e-paper.htm "*0"
 [1]: https://www.nxp.com/products/analog/signal-chain/bridges/ic-bus-to-spi-bridge:SC18IS602B "*1"
 [2]: https://www.waveshare.com/wiki/1.54inch_e-Paper_Module "*2"
+[3]: https://www.switch-science.com/products/3887
+
