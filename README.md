@@ -34,6 +34,11 @@ V1とV2はハードウェア上の互換性がありますが、プログラム/
 ## 販売サイト
   * [スイッチサイエンス][3]
 
+## 告知
+  * SC18IS602の後継ICのSC18IS606PWJはGPIOピンが3つに減ったため、本モジュールの代替ICとして使用できないことが分かりました  
+  * よって、SC18IS602の生産完了に伴い、本モジュールについてもIC在庫がなくなり次第、販売を終了する予定です  
+  
+
 [0]: https://www.waveshare.com/product/1.54inch-e-paper.htm "*0"
 [1]: https://www.nxp.com/products/analog/signal-chain/bridges/ic-bus-to-spi-bridge:SC18IS602B "*1"
 [2]: https://www.waveshare.com/wiki/1.54inch_e-Paper_Module "*2"
